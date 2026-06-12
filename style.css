@@ -27,7 +27,50 @@ header {
     display: flex;
     gap: 10px;
 }
+/* Botão de Dispachar */
+.btn-dispachar {
+    background-color: #b72020;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
 
+}    
+.monitoramento-main {
+    opacity: 0.9;
+    background-color: #0B2454;
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+/* Posicionamento absoluto para colocar a caixa do lado direito da tela */
+.atendimento-main{
+    
+    position: absolute;
+    right: 0;
+    top: 70px; 
+    opacity: 0.9;
+    width: 300px;
+    height: 800px;
+    background-color: #0B2454;
+    border-radius: 10px;
+    /*borda da caixa*/
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    /* separar do header */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    /* borda da caixa */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* borda da caixa */
+    margin-top: 20px;
+    margin-left: 20px;
+}
 .logo span {
     font-weight: 700;
 }
@@ -70,10 +113,10 @@ header {
 }
 
 /* Primeira parte do main */
-
 .equipes-main {
+    opacity: 0.9;
     width: 300px;
-    height: 500px;
+    height: 800px;
     background-color: #0B2454;
     border-radius: 10px;
     /*borda da caixa*/
