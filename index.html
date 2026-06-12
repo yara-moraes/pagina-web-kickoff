@@ -4,10 +4,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Gestão de Equipes</title>
 </head>
 
 <body>
+    <header>
+        <!-- Logo -->
+        <div class="logo">
+            <i class="bi bi-lightbulb-fill"></i> <!--Icon Lâmpada-->
+            <span>Luz para Todos</span>
+        </div>
+
+        <!-- menu header -->
+        <nav class="nav-header">
+            <span>Mapa Tempo Real</span>
+            <span>Relatórios</span>
+            <span>Equipes</span>
+        </nav>
+
+        <!-- Icons -->
+        <div class="icon-header">
+            <i id="sino" class="bi bi-bell"></i> <!--Icon Sino-->
+            <i id="conf" class="bi bi-gear"></i> <!--Icon Configurações-->
+        </div>
+    </header>
+    <!-- Primeira parte do main-->
+    <main>
+        <div class="equipes-main">
+
+            <div class="equipes-titulo-main">
+                <strong>Equipes de Campo</strong>
+                <i class="bi bi-person-fill-gear"></i> <!--Icon person fill-->
+            </div>
+            <!-- caixas -->
+            <div class="caixa-main">
+
+                <div class="linha-main">
+                    <strong class="strong-caixa-main">Equipe Alfa </strong>
+                    <span class="box-status-main">Em atendimento</span>
+                </div>
+
+                <span class="viatura-caixa">Centro &bull; Viatura 4</span>
+
+                <div class="local-caixa">
+                    <i class="bi bi-geo-alt"></i>
+                    <span>Rua do imperador, 120
+                </div>
+
+            </div>
+
+            <div class="caixa-main">
+                <h3>Equipe Beta</h3>
+                <p>Zona sul &bull; Viatura 7</p>
+                <i class="bi bi-lightning-charge"></i>
+                <p>Pronta para despacho
+                    <span>disponível</span>
+                <p>
+            </div>
+
+            <div class="caixa-main">
+                <h3>Equipe Gamma</h3>
+                <p>Norte &bull; Viatura 12 </p>
+                <i class="bi bi-stopwatch"></i>
+                <p>Retorno às 18:00
+                <p>
+                    <span>fora de serviço</span>
+            </div>
+
+        </div>
+        <!-- segunda parte -->
+        <div>
+            <div>
+                <i class="bi bi-map"></i>
+                <span>Monitoramento</span>
+                <h3>Setor Recife</h3>
+            </div>
+            <div>
+                <span>Chamado</span>
+                <h3>12 Ativos</h3>
+            </div>
+        </div>
+        <!-- Terceira parte -->
+        <div>
+            <div>
+                <h3>Fila de atendimento</h3>
+                <span>Sugestões prioritárias</span>
+                <i class="bi bi-exclamation-lg"></i>
+            </div>
+            <div>
+                <span>Urgência crítica</span>
+                <h4>Falha Massiva: Santo Amaro</h4>
+                <p>8 Pontos sem energia detectados no quadrante B-12</p>
+                <p>Agora</p>
+                <button>Despachar Imediado</button>
+            </div>
+            <div>
+                <span>Recorrência alta</span>
+                <h4>Manutenção: Afogados</h4>
+                <p>Histórico de três falhas nos ultimos 15 dias. Sugestão: troca de reator.</p>
+                <p>15 min atrás</p>
+                <span>Ver Histórico > </span>
+            </div>
+            <div>
+                <span>rotina preventiva</span>
+                <h4>Inspeção: Boa Viagem</h4>
+                <p>Monitoramento de orla marítima programado para hoje.</p>
+                <p>2h atrás</p>
+                <button>Adicionar à Fila</button>
+            </div>
+        </div>
+    </main>
+
 
 </body>
 
