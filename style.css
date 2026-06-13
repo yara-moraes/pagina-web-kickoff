@@ -22,19 +22,16 @@ header {
 }
 
 /* header */
+
 /* logo */
-.logo {
-    display: flex;
-    gap: 10px;
-}
-
-.logo span {
-    font-weight: 700;
-}
-
 .logo i {
     color: #FFD400;
     ;
+}
+
+.logo {
+    display: flex;
+    gap: 10px;
 }
 
 /* menu reader */
@@ -70,10 +67,10 @@ header {
 }
 
 /* Primeira parte do main */
-
 .equipes-main {
+    opacity: 0.9;
     width: 300px;
-    height: 500px;
+    height: 800px;
     background-color: #0B2454;
     border-radius: 10px;
     /*borda da caixa*/
@@ -205,4 +202,108 @@ header {
     gap: 30px;
     /* espaço entre os dois */
     margin-bottom: 0px;
+}
+
+/* Fila atendimento main*/
+.btn-dispachar {
+    background-color: #b72020;
+    color: #ffffff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+/* Monitoramento */
+.monitoramento-main {
+    display: flex;
+    opacity: 0.9;
+    width: 300px;
+    height: 82px;
+    background-color: #0B2454;
+    border-radius: 10px;
+    box-sizing: border-box;
+    /* borda da caixa */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* borda da caixa */
+    margin-left: 20px;
+    /* Localização na pagina */
+    position: absolute;
+    left: 330px;
+    top: 90px;
+}
+
+.icon-monitoramento {
+    background-color: #ffd5003d;
+    /* Fundo amarelo bem transparente (10% de opacidade) */
+    /* Borda amarela sutil para dar acabamento */
+    width: 38px;
+    /* Largura da caixinha */
+    height: 38px;
+    /* Altura da caixinha (igual à largura para ser um quadrado perfeito) */
+    border-radius: 50%;
+    /* Centraliza o ícone perfeitamente dentro do círculo */
+    color: #FFD400;
+    font-size: 15px;
+    display: flex;
+
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    /* alinha a bolinha e o icon no centro */
+    margin-left: 15px;
+}
+
+.subtitulo-monitoramento {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 9px;
+    color: #d9d9d94f;
+    font-weight: 600;
+    display: flex;
+    margin-top: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Posicionamento absoluto para colocar a caixa do lado direito da tela */
+.atendimento-main {
+
+    position: absolute;
+    right: 0;
+    top: 70px;
+    opacity: 0.9;
+    width: 300px;
+    height: 800px;
+    background-color: #0B2454;
+    border-radius: 10px;
+    /*borda da caixa*/
+    padding: 15px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    /* separar do header */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    /* borda da caixa */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    /* borda da caixa */
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.logo span {
+    font-weight: 700;
 }

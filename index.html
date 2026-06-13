@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
     <header>
         <!-- Logo -->
         <div class="logo">
@@ -71,7 +72,6 @@
                     <i class="bi bi-lightning-charge"></i>
                     <span>Pronta para despacho
                 </div>
-                <p>
             </div>
             <!-- caixa 3 -->
             <div class="caixa-main">
@@ -88,24 +88,30 @@
                     <i class="bi bi-stopwatch"></i>
                     <span>Retorno às 18:00
                 </div>
+            </div>
+        </div>
 
+        <!-- Monitoramento -->
+        <div class="monitoramento-main">
+
+            <div class="icon-monitoramento"><i class="bi bi-map"></i></div>
+
+            <div class="monitoramento-esquerda">
+                <span class="subtitulo-monitoramento">monitoramento</span>
+                <strong class="titulo-principal">Setor Recife</strong>
+            </div>
+
+            <div class="linha-separadora"></div>
+
+            <div class="monitoramento-direita">
+                <span class="subtitulo">CHAMADOS</span>
+                <strong class="chamados-ativos">12 Ativos</strong>
             </div>
 
         </div>
-        <!-- segunda parte -->
-        <div>
-            <div>
-                <i class="bi bi-map"></i>
-                <span>Monitoramento</span>
-                <h3>Setor Recife</h3>
-            </div>
-            <div>
-                <span>Chamado</span>
-                <h3>12 Ativos</h3>
-            </div>
-        </div>
-        <!-- Terceira parte -->
-        <div>
+
+        <!-- Fila atendimento main -->
+        <div class="atendimento-main">
             <div>
                 <h3>Fila de atendimento</h3>
                 <span>Sugestões prioritárias</span>
@@ -116,7 +122,7 @@
                 <h4>Falha Massiva: Santo Amaro</h4>
                 <p>8 Pontos sem energia detectados no quadrante B-12</p>
                 <p>Agora</p>
-                <button>Despachar Imediado</button>
+                <button type="button" class="btn-dispachar">Dispachar Imediato</button>
             </div>
             <div>
                 <span>Recorrência alta</span>
@@ -130,7 +136,7 @@
                 <h4>Inspeção: Boa Viagem</h4>
                 <p>Monitoramento de orla marítima programado para hoje.</p>
                 <p>2h atrás</p>
-                <button>Adicionar à Fila</button>
+                <button class="btn-fila">Adicionar à Fila</button>
             </div>
         </div>
     </main>
